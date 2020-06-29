@@ -22,14 +22,14 @@ clean:
 
 .PHONY: s3generate
 s3generate:
-	go generate client/s3fs_test.go
+	go generate client/s3mock_test.go
 
 client/s3mock/s3.go: s3generate
 client/s3mock/s3manager.go: s3generate
 
 .PHONY: sqsgenerate
 sqsgenerate:
-	go generate client/sqs_test.go
+	go generate client/sqsmock_test.go
 
 client/sqsmock/sqs.go: sqsgenerate
 
