@@ -38,3 +38,9 @@ $ tree client/sqsmock
 client/sqsmock
 └── sqs.go
 ```
+
+## References
+
+* https://github.com/aws/aws-sdk-go-v2
+* [Mocking Out the AWS SDK for Go for Unit Testing](https://aws.amazon.com/jp/blogs/developer/mocking-out-then-aws-sdk-for-go-for-unit-testing/)
+* [Mocking out new API? #70](https://github.com/aws/aws-sdk-go-v2/issues/70)
