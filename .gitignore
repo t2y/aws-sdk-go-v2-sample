@@ -1,3 +1,7 @@
+main
+client/s3mock/
+client/sqsmock/
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
