@@ -10,7 +10,7 @@ Generate mock code for AWS service.
 
 ```bash
 $ make s3generate
-go generate client/s3fs_test.go
+go generate client/s3mock_test.go
 $ tree client/s3mock
 client/s3mock
 ├── s3.go
@@ -33,7 +33,7 @@ Generating sqs mock code only, there are no tests for SQS.
 
 ```bash
 $ make sqsgenerate
-go generate client/sqs_test.go
+go generate client/sqsmock_test.go
 $ tree client/sqsmock
 client/sqsmock
 └── sqs.go
